@@ -16,7 +16,7 @@
     transform: rotate(45deg);
     transition: transform 0.3s ease-in-out;
   }
-  &:hover img {
+  &:hover svg {
     transform: rotate(45deg) translate(-0px, -5px);
   }
 }

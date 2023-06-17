@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     gap: em(10);
+    white-space: nowrap;
 
     span {
       font-family: sans-serif;

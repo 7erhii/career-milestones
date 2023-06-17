@@ -3,6 +3,9 @@
     max-width: em(1440);
     margin: 0 auto;
     padding: em(0) em(36);
+    @include mobile {
+      padding: em(0) em(24);
+    }
     a {
       color: $textColor;
     }
@@ -11,12 +14,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include mobile {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: em(40);
+      
+    }
   }
   &__logo {
     display: flex;
     align-items: center;
     gap: em(10);
     white-space: nowrap;
+    @include mobile {
+    gap: em(10);
+      
+    }
 
     span {
       font-family: sans-serif;
@@ -26,7 +39,7 @@
       font-weight: 600;
       color: $textColor;
     }
-    img {
+    svg {
       width: em(40);
       height: em(40);
     }

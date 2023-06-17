@@ -1,0 +1,56 @@
+.experience {
+  &__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: em(120) em(36);
+    padding-bottom: em(24);
+  }
+  &__item {
+    display: flex;
+    padding-bottom: em(85);
+  }
+  &__img {
+    max-width: 50%;
+    padding-right: em(54);
+    img {
+      max-width: 100%;
+    }
+  }
+  &__descr {
+    width: 50%;
+    padding-left: em(54);
+
+  }
+  &__date {
+    margin-top: em(10);
+    span {
+      font-family:"Neue Haas Display", sans-serif;
+      font-size: em(16);
+      letter-spacing: em(0.5, 16);
+      font-weight: 600;
+      color: $textColor;
+    }
+  }
+  &__title {
+    margin-top: em(44);
+    span {
+      font-family:"Neue Haas Display", sans-serif;
+      font-size: em(32);
+      line-height: em(40,35);
+      letter-spacing: em(0.01, 35);
+      font-weight: 300;
+      color: $textColor;
+    }
+  }
+  &__text {
+    margin-top: em(18);
+    span {
+      font-family:"Neue Haas Display", sans-serif;
+      font-size: em(20);
+      letter-spacing: em(-0.03, 20);
+      line-height:  em(30, 20);
+      font-weight: 200;
+      color: $textColor;
+    }
+  }
+}

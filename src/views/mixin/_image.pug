@@ -1,0 +1,16 @@
+mixin image(file)
+  img(src=require(`../assets/images/${file}`), alt="", class!=attributes.class)
+
+mixin experience(imageFile, date, title, ...texts)
+  .experience__img
+    +image(imageFile)
+  .experience__descr
+    .experience__date
+      span= date
+    .experience__title
+      span= title
+    each text in texts
+      .experience__text
+        span= text
+
+//- +experience('street.jpeg', 'August 2021 – Current', 'Square', 'Text 1', 'Text 2')

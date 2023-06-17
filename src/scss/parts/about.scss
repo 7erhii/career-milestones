@@ -1,0 +1,40 @@
+.about {
+  &__container {
+    align-items: center;
+    justify-content: space-between;
+    max-width: em(1440);
+    margin: 0 auto;
+    padding: em(94) em(36);
+  }
+  &__title {
+    max-width: 50%;
+    margin-bottom: em(10);
+    p {
+      font-family: "Neue Haas Display", sans-serif;
+      font-size: em(18);
+      font-weight: 500;
+      letter-spacing: em(0.1, 18);
+      color: $textColor;
+    }
+  }
+  &__subtitle {
+    max-width: 50%;
+    padding-right: em(60);
+    p {
+      margin-bottom: em(20, 18);
+      font-family: sans-serif;
+      font-size: em(18);
+      line-height: em(31, 18);
+      font-weight: 300;
+      letter-spacing: em(0.1, 18);
+      color: $textColor;
+    }
+  }
+  &__sign {
+    margin-top: em(40);
+    img {
+      width: em(200);
+      height: em(80);
+    }
+  }
+}

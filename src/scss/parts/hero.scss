@@ -1,0 +1,82 @@
+.hero {
+  &__container {
+    display: flex;
+    align-items: center;
+    max-width: em(1440);
+    margin: 0 auto;
+    padding: em(98) em(36);
+    a {
+      color: $textColor;
+    }
+  }
+  &__descr {
+    width: 50%;
+    margin-bottom: auto;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin-top: em(25);
+    span {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: em(82);
+      line-height: em(98, 82);
+      letter-spacing: em(0.5);
+      color: $textColor;
+    }
+  }
+  &__subtitle {
+    margin-top: em(30);
+    padding-right: em(70);
+    span {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: em(22);
+      line-height: em(33, 22);
+      letter-spacing: em(0.7);
+      font-weight: 300;
+      color: $textColor;
+    }
+  }
+  &__social-link {
+    margin-top: em(80);
+  }
+
+  &__location {
+    display: flex;
+    align-items: center;
+    gap: em(7);
+    span {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: em(18);
+      letter-spacing: em(0.2);
+      font-weight: 500;
+      color: $textColor;
+    }
+    img {
+      width: em(26);
+      height: em(26);
+    }
+  }
+  &__images {
+    position: relative;
+    width: 50%;
+  }
+  &__img {
+    width: 100%;
+
+    img {
+      border-radius: 100%;
+      max-width: 100%;
+      padding: 0 em(20);
+    }
+  }
+  &__rainbow {
+    position: absolute;
+    left: -55%;
+    top: auto;
+    right: 0;
+    bottom: -55%;
+    width: 170%;
+    max-width: none;
+  }
+}

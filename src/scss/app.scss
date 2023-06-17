@@ -1,0 +1,29 @@
+$selectionColor: #23a6d5;
+$colorBlack: #000000;
+$textColor: #000000;
+$colorBackground: rgb(238, 230, 230);
+
+
+// Core
+@import 'core/mixins';
+@import 'core/reset';
+@import 'core/fonts';
+@import 'core/base';
+
+
+// Parts
+@import 'parts/body';
+@import 'parts/header';
+@import 'parts/hero';
+@import 'parts/about';
+@import 'parts/experience';
+@import 'parts/footer';
+
+//component
+@import 'parts/socialLink';
+
+
+
+
+
+

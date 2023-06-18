@@ -12,8 +12,7 @@
       flex-direction: column;
       padding: em(84) em(24);
       align-items: start;
-
-      // align-items: flex-start;
+      overflow-x: hidden;
     }
   }
   &__descr {
